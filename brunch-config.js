@@ -73,5 +73,10 @@ exports.config = {
       }
     }
   },
+  modules: {
+    autoRequire: {
+      'javascripts/app.js': ['initialize']
+    }
+  },
   sourceMaps: "absoluteUrl"
 };
