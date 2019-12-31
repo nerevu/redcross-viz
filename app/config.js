@@ -6,7 +6,7 @@ module.exports = {
   },
   site: {
     sourceCode: '//github.com/nerevu/redcross-viz',
-    sourceData: '//github.com/nerevu/redcross-viz/blob/master/app/dev_data/datastore_search.json',
+    sourceData: '//github.com/nerevu/redcross-viz/blob/master/app/dev_data',
     title: 'El Niño Dashboard',
     subTitle: 'El Niño related Casualties',
     description: 'Deaths and Injuries in Kenya (2015–2016). Hover over the map or graph to see details.',
