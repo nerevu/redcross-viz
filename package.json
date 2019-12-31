@@ -3,7 +3,7 @@
   "license": "MIT",
   "name": "El-Nino-Dashboard",
   "description": "Nerevu El Niño Dashboard",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "environment": "web",
   "homepage": "",
   "keywords": [],
@@ -21,6 +21,7 @@
     "start:prod": "coffee server.coffee",
     "build": "brunch build || echo 'error building project'",
     "build:prod": "brunch build --production || echo 'error building project'",
+    "heroku-postbuild": "npm run build:prod",
     "postinstall": "npm run build"
   },
   "dependencies": {
