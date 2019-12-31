@@ -21,6 +21,7 @@
     "start:prod": "coffee server.coffee",
     "build": "brunch build || echo 'error building project'",
     "build:prod": "brunch build --production || echo 'error building project'",
+    "heroku-postbuild": "npm run build:prod",
     "postinstall": "npm run build"
   },
   "dependencies": {
