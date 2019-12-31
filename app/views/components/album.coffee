@@ -8,7 +8,7 @@ module.exports =
     colors = utils.getColors attrs
 
     # https://getbootstrap.com/docs/4.4/utilities/colors/#background-color
-    albumColor = colors.albumColor or 'white'
+    albumColor = colors.albumColor or utils.presets.default.albumColor
     textColor = colors.albumTextColor or helpers.getTextColor albumColor
 
     m ".album.py-5 bg-#{albumColor} text-#{textColor}",

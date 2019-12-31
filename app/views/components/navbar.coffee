@@ -8,13 +8,7 @@ module.exports =
     colors = utils.getColors attrs
 
     # https://getbootstrap.com/docs/4.4/utilities/colors/#background-color
-    if colors.navbarColor
-      navbarColor = colors.navbarColor
-    else if attrs.mode is 'dark'
-      navbarColor = 'light'
-    else
-      navbarColor = 'dark'
-
+    navbarColor = colors.navbarColor or utils.presets.default.navbarColor
     navbarMode = helpers.getModeColor navbarColor
 
     m "nav.navbar fixed-top navbar-#{navbarMode} bg-#{navbarColor} shadow-sm",

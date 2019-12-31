@@ -8,7 +8,12 @@ site = config.site
 author = config.author
 
 presets =
-  'default': {}
+  'default':
+    navbarColor: 'dark'
+    jumboColor: 'light'
+    albumColor: 'white'
+    footerColor: 'dark'
+
   'classic':
     navbarColor: 'primary'
     jumboColor: 'light'
