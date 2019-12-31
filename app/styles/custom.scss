@@ -25,6 +25,10 @@ body {
   margin-bottom: 0;
 }
 
+.album .row:last-child {
+  margin-bottom: -3rem;
+}
+
 .bd-footer-links {
   padding-left: 0;
 

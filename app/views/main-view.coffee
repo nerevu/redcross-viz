@@ -13,5 +13,5 @@ module.exports = (vnode, attrs) ->
 
   m 'main', {'role': 'main'}, [
     m JumboTron, site
-    m Album, Object.assign site
+    m Album, site
   ]

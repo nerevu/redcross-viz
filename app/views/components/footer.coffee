@@ -11,7 +11,7 @@ module.exports =
     colors = utils.getColors attrs
 
     # https://getbootstrap.com/docs/4.4/utilities/colors/#background-color
-    footerColor = colors.footerColor or attrs.mode or 'dark'
+    footerColor = colors.footerColor or utils.presets.default.footerColor
     textColor = colors.footerTextColor or helpers.getTextColor footerColor
     linkColor = colors.footerLinkColor or helpers.getLinkColor footerColor
 

@@ -8,7 +8,7 @@ module.exports =
     colors = utils.getColors attrs
 
     # https://getbootstrap.com/docs/4.4/utilities/colors/#background-color
-    jumboColor = colors.jumboColor or attrs.mode or 'light'
+    jumboColor = colors.jumboColor or utils.presets.default.jumboColor
     textColor = colors.jumboTextColor or helpers.getTextColor jumboColor
     colors = "bg-#{jumboColor} text-#{textColor}"
 
