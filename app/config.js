@@ -12,8 +12,8 @@ module.exports = {
     description: 'Hover over the map and graph to see details',
     url: '//showcase.redcross-viz.nerevu.com',
     type: 'website',
-    theme: 'bootstrap-purple',
-    preset: 'classic',
+    theme: 'lovely',
+    preset: 'album',
     overrides: {},
     items: [
       {title: 'Total Casualties', id: 'where', size: 5},
