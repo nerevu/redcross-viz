@@ -1,0 +1,74 @@
+.hdx-3w-info {
+  font-size:1.5em;
+  margin-left:10px;
+  padding:5px;
+  background-color:white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.dc-chart g.row text {
+  fill: black;
+  font-size:0.8em;
+}
+
+.dc-chart .pie-slice {fill:black;}
+.x-axis-label{font-size:0.8em;}
+
+#where {
+  width:100%;
+  height:360px;
+}
+
+#wheretitle{padding-bottom:10px;}
+
+#header{
+  padding-bottom:20px;
+  border-bottom-color: #dddddd;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-bottom:20px;
+}
+
+.removepadding {
+  padding-right:0px;
+  padding-left:0px;
+}
+
+.chart {width:100%;}
+
+.info{
+  padding:5px;
+  background-color:white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+ }
+
+#flood-graph{
+  width:100%;
+  height:360px;
+}
+
+#flood-graph .axis path,
+#flood-graph .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#flood-graph .grid .tick line {
+  fill: none;
+  stroke:#aaa;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 3,3;
+}
+
+#flood-graph text {
+  font:10px sans-serif
+}
+
+#flood-graph .linelabels {
+  font:16px sans-serif;
+}

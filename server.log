@@ -1,0 +1,11 @@
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"::1 - - [05/Aug/2019:20:44:35 +0000] \"GET /images/icons/touch-icon-192x192.png HTTP/1.1\" 404 174 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:68.0) Gecko/20100101 Firefox/68.0\"\n","level":"info"}
+{"message":"::1 - - [05/Aug/2019:20:48:10 +0000] \"GET /og_Intro_Screen_FB_2.png HTTP/1.1\" 404 163 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:68.0) Gecko/20100101 Firefox/68.0\"\n","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"fe80::1 - - [05/Aug/2019:21:09:09 +0000] \"GET /images/icons/touch-icon-192x192.png HTTP/1.1\" 404 174 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:68.0) Gecko/20100101 Firefox/68.0\"\n","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
