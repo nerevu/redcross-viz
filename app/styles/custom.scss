@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Bank Gothic';
+  src: url('fonts/BankGothic-Light.otf?v=1.2.1') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bank Gothic';
+  src: url('fonts/BankGothic-Medium.otf?v=1.2.1') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+$headings-font-family: 'Bank Gothic', 'Lato';
+
+@import 'colors';
+@import 'bootstrap';
+
+body {
+  padding-top: 55px;
+  overflow-x: hidden !important;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.bd-footer-links {
+  padding-left: 0;
+
+  li {
+    display: inline-block;
+
+    + li {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.small {
+  @include font-size(.875rem);
+}
