@@ -8,7 +8,7 @@ module.exports = {
     sourceCode: '//github.com/nerevu/redcross-viz',
     sourceData: '//github.com/nerevu/redcross-viz/blob/master/app/dev_data/datastore_search.json',
     title: 'El Niño Dashboard',
-    subTitle: 'El Niño related Casualties',
+    subTitle: 'El Niño related Casualties in Kenya',
     description: 'Hover over the map and graph to see details',
     url: '//showcase.redcross-viz.nerevu.com',
     type: 'website',
