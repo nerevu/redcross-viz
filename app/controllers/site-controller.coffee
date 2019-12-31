@@ -4,6 +4,7 @@ stream = require 'mithril/stream'
 config = require 'config'
 devconfig = require 'devconfig'
 helpers = require 'lib/helpers'
+utils = require 'lib/utils'
 
 module.exports = class Controller
   constructor: (attrs) ->
@@ -34,3 +35,9 @@ module.exports = class Controller
       if event
         event.preventDefault()
         console.error event.error or event.message
+
+  setContainerColor: ->
+    colors = utils.getColors config.site
+    containerColor = colors.albumColor or utils.presets.default.albumColor
+    container = document.getElementById 'container'
+    helpers.addClass container, "bg-#{containerColor}"

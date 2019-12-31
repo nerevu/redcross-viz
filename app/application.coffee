@@ -13,6 +13,7 @@ module.exports =
     helpers.log 'initializing app'
     vnode.state.ctrl = ctrl = new Controller vnode.attrs
     utils.initSiteMeta ctrl.head
+    ctrl.setContainerColor()
 
     getPromises = (names) -> names.map (name) ->
       collection = ctrl[name]
