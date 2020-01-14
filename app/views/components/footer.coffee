@@ -19,20 +19,12 @@ module.exports =
       m '.container py-3 py-md-5', [
         m 'p.mb-0', [
           "Copyright © #{year} "
-          m "a.strong text-#{linkColor}", {
-            href: attrs.url
-            oncreate: m.route.link
-            onupdate: m.route.link
-          }, attrs.name
+          m "a.strong text-#{linkColor}", {href: attrs.url}, attrs.name
           '. All rights reserved.'
         ]
 
         if attrs.links?.length
           m 'ul.bd-footer-links mb-0 mt-3', attrs.links?.map (link) ->
             m 'li',
-              m "a.strong text-#{linkColor}", {
-                href: link.href
-                oncreate: m.route.link
-                onupdate: m.route.link
-              }, link.text
+              m "a.strong text-#{linkColor}", {href: link.href}, link.text
       ]
